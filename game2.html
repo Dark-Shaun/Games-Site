@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Connect-Dot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/transcends-games" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style >
+.jumbotron{
+  border:5px solid black;
+  padding-bottom:5px;
+  height:275px;
+ }
+ #heading_1{
+   font-family: 'TranscendsGamesMedium';
+   text-align:center;
+   font-size:100px;
+
+ }
+ #objective{
+   font-family: 'TranscendsGamesMedium';
+   text-align:center;
+ }
+ #button_1{
+   font-family: 'TranscendsGamesMedium';
+   font-size:20px;
+   margin-right:150px;
+   margin-bottom:15px;
+   width:100px;
+}
+#name{
+
+}
+button{
+
+  border-radius:25px;
+  height: 50px;
+  width:50px;
+  background-color:rgb(128, 128, 128);
+}
+#name1{
+
+  margin-left:215px;
+}
+#name2{
+  border:5px solid black;
+}
+#input_1{
+  font-family: 'TranscendsGamesMedium';
+  padding-left:30px;
+}
+#input_11{
+  font-family: 'TranscendsGamesMedium';
+  padding-left:30px;
+}
+#input_22{
+  font-family: 'TranscendsGamesMedium';
+  padding-left:30px;
+}
+#input_12{
+  font-family: 'TranscendsGamesMedium';
+  padding-left:30px;
+}
+#input_13{
+  font-family: 'TranscendsGamesMedium';
+  padding-left:30px;
+}
+
+.red
+{
+    background-color:red;
+}
+
+</style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1 id="heading_1">Connect Four</h1>
+      <div class="text-right">
+        <button id="button_1" type="button" class="btn btn-outline-dark ">Restart</button>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+  <div class="row">
+    <div id="name" class="col-lg-8 col-6 px-0">
+    <h3 id="objective">Connect Four of the chips in a row!</h3>
+    </div>
+    <div id="name" class="col-lg-4 col-6 px-0">
+
+    </div>
+  </div>
+
+    <div class="row">
+      <div   class="col-lg-6 col-6 px-0">
+        <table  id="name1"  class='board'>
+          <tr>
+            <td ><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+          </tr>
+          <tr>
+            <td ><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+          </tr>
+          <tr>
+            <td ><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+          </tr>
+          <tr>
+            <td ><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+          </tr>
+          <tr>
+            <td ><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-lg-4 col-6 px-0">
+
+        <h3 id="input_11" ><input type="text" name="" placeholder="Player 1 Name" required></h3>
+
+        <h3 id="input_22"><input  type="text" name="" placeholder="Player 2 Name" required></h3>
+
+        <h2 id="input_1">Player 1:Red  <i class="fa fa-circle" style="color:red"></i></h2>
+        <h2 id="input_13">Player 2:Blue <i class="fa fa-circle" style="color:#0FF2C9"></i></h2>
+
+        <br>
+        <h2 id="input_12">Result:</h2>
+      </div>
+    </div>
+
+
+</div>
+
+    </section>
+<script src="connectfourdot.js"> </script>
+  </body>
+</html>
