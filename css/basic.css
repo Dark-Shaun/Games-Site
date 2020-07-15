@@ -1,0 +1,17 @@
+.jumbotron{
+  border:5px solid black;
+  padding-bottom:5px;
+  height:275px;
+ }
+  #heading_1{
+    font-family: 'TranscendsGamesMedium','Ubuntu';
+    text-align:center;
+    font-size:100px;
+
+  }
+  #button_1{
+    font-family: 'TranscendsGamesMedium','Ubuntu';
+    font-size:20px;
+    margin-right:80px;
+    margin-bottom:15px;
+}

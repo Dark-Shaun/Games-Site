@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Simon Game</title>
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<style media="screen">
+  .row_1 {
+
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 58px;
+
+  }
+  .score{
+    font-family: "Ubuntu";
+    position:relative;
+    bottom: 279px;
+    height:60px;
+    width: 60px;
+    outline: none;
+    border-radius: 20%;
+    color: white;
+    background-color: black;
+
+
+  }
+</style>
+
+<body>
+  <h1 id="level-title">Press Any Key to Start</h1>
+  <div class="container">
+
+    <div class="row row_1">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row row_1">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+        <button disabled type="button" class="score" name="button">Score</button>
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/game3.js"></script>
+
+</body>
+
+</html>

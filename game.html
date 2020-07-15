@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/transcends-games" type="text/css"/>
+  <link rel="stylesheet" href="css/basic.css">
+  <style media="screen">
+  body{
+      font-family: 'TranscendsGamesMedium','Ubunutu';
+  }
+
+    }
+    #table_1{
+      text-align:center;
+      height:300px;
+       width:300px;
+        border:3px solid black;
+        margin-left:75px;
+
+    }
+
+
+    #input_2{
+
+      text-align:right;
+    }
+    #cell_1{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+       font-size:50px;
+    }
+    #cell_2{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+       font-size:50px;
+    }
+    #cell_3{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+        font-size:50px;
+    }
+    #cell_4{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+        font-size:50px;
+    }
+    #cell_5{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+ font-size:50px;
+    }
+    #cell_6{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+        font-size:50px;
+    }
+    #cell_7{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+        font-size:50px;
+    }
+    #cell_8{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+        font-size:50px;
+    }
+    #cell_9{
+      text-align: center;
+      border:3px solid black;
+      height:100px;
+       width:100px;
+        font-size:50px;
+
+    }
+    #a{
+        font-size:50px;
+    }
+    #result{
+
+        font-size:30px;
+
+        text-align: left;
+
+
+    }
+
+  #button_2{
+
+    margin-top:170px;
+  }
+  .col1{
+
+    padding-left: 40px;
+
+  }
+
+      </style>
+    </head>
+    <body>
+
+
+
+        <div class="jumbotron">
+          <h1 id="heading_1">Tic-Tac-Toe</h1>
+          <div class="text-right">
+            <button id="button_1" type="button" class="btn btn-outline-dark ">Restart</button>
+          </div>
+      </div>
+  <div class="container">
+    <div class="row">
+      <div id="name"class="col-3">
+        <h3 id="input_1" >Name:<input type="text" name="" placeholder="Player 1 Name" required></h3>
+        <p></p>
+        <h3 id="input_1">Name:<input  type="text" name="" placeholder="Player 2 Name" required></h3>
+        <p></p>
+        <h2 id="input_1">Player 1:X</h2>
+        <h2 id="input_1">Player 2:O</h2>
+      </div>
+      <div  class="col-4 col1">
+        <table id="table_1" border=4px >
+          <tr >
+            <td id="cell_1"> </td>
+            <td id="cell_2"> </td>
+            <td id="cell_3"> </td>
+          </tr>
+          <tr>
+            <td id="cell_4"> </td>
+            <td id="cell_5"> </td>
+            <td id="cell_6"> </td>
+          </tr>
+          <tr>
+            <td id="cell_7"> </td>
+            <td id="cell_8"> </td>
+            <td id="cell_9"> </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-4">
+      <p id="result">Result:</p>
+      <button id="button_2" type="button" class="btn btn-outline-info">Check</button>
+      </div>
+    </div>
+  </div>
+
+
+
+ <script src="js/game.js"> </script>
+
+  </body>
+
+</html>
