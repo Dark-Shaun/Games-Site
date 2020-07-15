@@ -11,6 +11,9 @@ Games made using coding in JavaScript
 
 5.Rules to Play Connect Four:
   
-  A.Select the top most chip of the row in which you want your color to color the chip and then press 'r' for Red color if you      are the first player and for the second choose the top most chip and press 'b' for Blue color.
-  
+   a.Select the top most chip of the row in which you want your color to color the chip and then press 'r' for Red color if you      are the first player and for the second choose the top most chip and press 'b' for Blue color.
+ 
+6.Third Game:The Disco Game.
+
+7.Fourth Game:Guess the Color.
   
